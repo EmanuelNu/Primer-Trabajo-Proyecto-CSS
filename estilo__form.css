@@ -1,0 +1,110 @@
+* {
+	font-family: "Montserrat";
+}
+
+body {
+	background-color:rgb(32, 17, 39);
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: linear-gradient(to bottom, rgb(56, 30, 58), rgb(28, 39, 59), transparent);
+	margin: 40px 40px;
+	border-radius: 25px;
+	max-width: 1000px;
+}
+
+.form {
+	min-width: 300px;
+	flex: 1;
+	text-align: center;
+	padding: 30px;
+	order: 5;
+}
+
+.form__input {
+	width: 100%;
+	padding: 5px;
+	margin: 4px;
+	border-radius: 8px;
+	box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+	border: none;
+	border: 4px inset rgb(113, 177, 230);
+	transition: all 1s;
+}
+
+.form__input-submit {
+	width: 50%;
+	padding: 5px;
+	margin: 4px;
+	border-radius: 8px;
+	box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+	border: none;
+	border: 4px inset rgb(113, 177, 230);
+	transition: all 1s;
+}
+
+.form__input-number1:hover{
+	border: 6px inset rgb(190, 115, 240);
+	transition: all 1s;
+}
+
+.form__input-number2:hover{
+	border: 6px inset rgb(190, 115, 240);
+	transition: all 1s;
+}
+
+.form__input-number3:hover{
+	height: 50px;
+	z-index: 3;
+	border: 6px inset rgb(190, 115, 240);
+	transition: all 1s;
+}
+
+.form textarea {
+	min-height: 120px;
+	resize: vertical;
+}
+
+.form-img {
+	flex: 1;
+	padding: 40px;
+	display: flex;
+	min-width: 400px;
+	max-width: 500px;
+	order: 2;
+}
+
+.form-img img {
+	width: 70%;
+	margin: auto;
+	border-radius: 50%;
+	box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+	transition: all 1s;
+}
+
+.form-img img:hover {
+	box-shadow: 10px 10px 20px 0px rgb(190, 115, 240);
+}
+
+.form input[type="submit"] {
+	color: rgb(255, 255, 255);
+	background: radial-gradient(rgb(61, 101, 134), transparent);
+}
+
+.form input[type="submit"]:hover {
+	color: rgb(255, 255, 255);
+	border: 6px inset rgb(190, 115, 240);
+	cursor: pointer;
+	background: radial-gradient(transparent, rgb(61, 101, 134));
+}
+
+.form input[type="submit"]:active {
+	color: rgb(255, 255, 255);
+	border: 6px inset rgb(190, 115, 240);
+	cursor: pointer;
+	background: radial-gradient(transparent, rgb(61, 101, 134));
+}
